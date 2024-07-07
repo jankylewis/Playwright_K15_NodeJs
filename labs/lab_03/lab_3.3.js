@@ -5,4 +5,4 @@ for (let i = 0; i < numbers.length - 1; i++)
         if (numbers[j + 1] < numbers[j])
             [numbers[j], numbers[j + 1]] = [numbers[j + 1], numbers[j]]
 
-console.log(`Sorted merged array: [${numbers.join(", ")}]`)
+console.log(`Sorted array: [${numbers.join(", ")}]`)
